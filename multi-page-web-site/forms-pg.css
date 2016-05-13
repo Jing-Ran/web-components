@@ -1,0 +1,83 @@
+.main {
+	padding-top: 30px;
+	background-color: #ECEFF1;
+	text-align:center;
+	height: 100%;
+}
+
+.outer-container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main .container {
+	position: relative;
+	display: inline-block;
+	width: 40%;
+	height: 300px;
+	margin: 0 40px 60px;
+	background-color: #222;
+	background-position: center center;
+	background-size: cover;
+}
+
+.form1 {
+	background: url("../images/signup.png") no-repeat;
+}
+
+.form2 {
+	background: url("../images/search.png") no-repeat;
+}
+
+.form3 {
+	background: url("../images/questionnaire.png") no-repeat;
+}
+
+.form4 {
+	background-repeat: no-repeat, no-repeat;
+	background-size: 50% 100%, 50% 100% !important;
+	background-position: left, right !important;
+	background-image: url("../images/login.png"), url("../images/forgot-psw.png");
+}
+
+.form5 {
+	background: url("../images/color.png") no-repeat;
+}
+
+.form6 {
+	background: url("../images/shipping-billing.png") no-repeat;
+}
+
+.form7 {
+	background: url("../images/schedule.png") no-repeat;
+}
+
+.form8 {
+	background: url("../images/credit-card.png") no-repeat;
+}
+
+.container div {
+	display: none;
+	position: absolute;
+  	left: 0;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	width: 100%;
+  	line-height: 300px;
+  	background-color: rgba(255, 255, 255, 0.6);
+  	vertical-align: middle;
+  	font-size: 1.8em;
+}
+
+.container a {
+	color: #455A64;
+}
+
+.container:hover div {
+	display: block;
+}
+
+
+

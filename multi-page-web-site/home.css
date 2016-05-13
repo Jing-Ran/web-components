@@ -1,0 +1,53 @@
+body {
+	background-color: #222;
+	background: url("../images/home.jpeg") no-repeat;
+	background-position: center 70px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.main {
+	padding: 80px;
+}
+
+.main div {
+	width: 80%;
+	margin: 40px auto 40px;
+	padding: 30px;
+	background-color: rgba(255,255,255,0.7);
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Parisienne', cursive;
+	font-size: 4em;
+	color: #732C7B;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#lastn {
+	color: #421C52;
+}
+
+h3 {
+	font-size: 1.1em;
+	color: #455A64;
+	margin-bottom: 35px;
+}
+
+blockquote {
+	width: 80%;
+	margin: 0 auto 20px;
+	font-size: 1.5em;
+	line-height: 1.6em;
+	padding: 20px;
+	color: #37474F;
+	font-weight: bolder;
+}
+
+blockquote span {
+	display: block;
+	padding: 10px;
+	font-weight: normal;
+}
