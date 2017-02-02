@@ -22,10 +22,10 @@
   -moz-box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
   box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
 
-  -webkit-transition: background-color 0.5s;
-  -moz-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  transition: background-color 0.2s;
 }
 
 .btn:hover {
@@ -36,27 +36,6 @@
 	background-color: #00ACC1;
 }
 
-.btn-buy::before,
-.btn-mail::before,
-.btn-search::before {
-  font-family: 'icomoon';
-  margin-left: 0;
-  margin-right: 10px;
-  font-size: 14px;
-}
-
-.btn-buy::before {
-  content: '\e93a';
-}
-
-.btn-mail::before {
-  content: '\e900';
-}
-
-.btn-search::before {
-  content: '\e986';
-}
-
 .btn-sm {
 	font-size: 12px;
   padding: 8px 15px;
@@ -65,5 +44,9 @@
 .btn-lg {
 	font-size: 20px;
   padding: 15px 30px;
+}
+
+.btn .fa {
+  margin-right: 8px;
 }
 
